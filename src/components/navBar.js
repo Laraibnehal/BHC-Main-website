@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import newLogo from "../assets/newlogo.jpg"
+// import { useNavigate } from 'react-router-dom'
+// import newLogo from "../assets/newlogo.jpg"
 // import Marquee from "react-fast-marquee";
 
 
 const Navbar = ({ navClr }) => {
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
     const navbarNavigations = [
         {
             title: "Home",
@@ -54,7 +54,7 @@ const Navbar = ({ navClr }) => {
             </div>
             <div className="w-full h-20  flex justify-between pl-20 pr-7  items-center text-white " style={navClr && { backgroundColor: "blue" }}>
                 <div className="flex items-center space-x-4 cursor-pointer" onClick={() => navigate("/")}>
-                    <img src={newLogo} alt="" className="w-16 h-10" />
+                    {/* <img src={newLogo} alt="" className="w-16 h-10" /> */}
                     <div className="flex flex-col ">
                         <span className="text-3l font-semibold tracking-wide font-lora">Bridge Health Care</span>
                         <span className="text-xs font-sans tracking-widest">
