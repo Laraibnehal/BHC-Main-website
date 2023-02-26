@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react'
-import Header from '../components/Header'
+import Header from '../components/HomeHeader'
 // import ReviewsMarqueue from "../components/ReviewsMarqueue"
 // import FilterDramaOutlinedIcon from '@mui/icons-material/FilterDramaOutlined';
 // import TrackChangesIcon from '@mui/icons-material/TrackChanges';
 import Footer from "../components/Footer"
 import Loader from '../components/Loader';
 import Speciality from '../components/Home Page/Speciality';
-import Derma from ".././assets/Derma.png"
-import Lungs from '.././assets/Lungs.png'
+import Derma from "../Assets/Derma.png"
+import Lungs from '../Assets/lungs.png'
 
 const Home = () => {
 
